@@ -1,0 +1,93 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+h1,
+p,
+
+/* Add a black background color to the top navigation */
+.navbar {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: right;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    background-color: black;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+ 
+
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(216, 216, 216);
+    color: black;
+  }
+  
+  
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #aa0404;
+    color: white;
+  }
+  
+h1 {
+  font-size: 3.4em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+li {
+    overflow-wrap: break-word;
+
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+p {
+    overflow-wrap: break-word;
+
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:10px 0;
+  text-align: center;
+  background: #646464;
+  color: white;
+}
+
+
+
+
+img {
+  max-width: 200%;
+  height: auto;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#grad {
+  height: fit;
+  background-color: rgb(197, 197, 197); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(197, 197, 197), rgb(158, 158, 158));
+}

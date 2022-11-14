@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+  }
+}
+#rcorners {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  
+}
+</style>
+</head>
+<body id="grad" >
+  <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="page2.html">History</a>
+      <a href="page3.html">Visit</a>
+    </div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;max-width: 650px" id="rcorners">
+    <h2>Visit London</h2>
+    <p>          London, the captial of the United Kingdom is one of the most vibrant, multicultral and polycentric cities in the world
+      with history and artifacts spanning nearly two millennia such as:
+      <ul>
+        <li>Buckingham Palace</li>
+        <li>The Big Ben</li>
+        <li>The London eye</li>
+        
+      </ul>
+      <img src="LondonView.jpg" alt="The Big ben" width="300"
+    height="300">
+
+</p>
+  </div>
+  <div class="column" style="background-color:#bbb;max-width: 400px; "id="rcorners">
+    <h2>The London Eye</h2>
+    <p>The London eye, formally known as the Millennium wheel is the world's
+      largest cantilevered observation wheel standing at 135m tall. Built between 1998 
+      and 1999 it is the most popular tourist attraction in the UK with 3 million visitors 
+      annually.
+      <a href="https://www.londoneye.com/" target="_blank">"Click here"</a>
+</p>
+<h2>Buckingham Palace Tour</h2>
+<p>
+    Buckingham palace is one of the most popular tourist attraction in UK and home to the royal family.
+     Meet the royal guard and tour the palace with 775 rooms and beautiful gardens. To find out more information click here:
+     <a href="https://www.rct.uk/visit/buckingham-palace/highlights-of-buckingham-palace?gclid=Cj0KCQiApb2bBhDYARIsAChHC9vIB3sFiJBbWxqolhiSkYNBzhnuNQ5TMOSNHGzIbn5N5vTAmg42MAoaAiAhEALw_wcB#/" target="_blank">"Click here"</a>
+
+</p>
+
+  </div>
+  
+</div>
+
+</body>
+</html>
